@@ -26,3 +26,5 @@ def divide(a: int, b: int) -> float:
 
 if __name__ == "__main__":
     mcp.run()
+
+# fastmcp run my_math_mcp_server.py:mcp    

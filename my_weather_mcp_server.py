@@ -24,3 +24,5 @@ def get_weather_forecast(location: str) -> list:
 
 if __name__ == "__main__":
     mcp.run(transport="streamable-http")
+
+#fastmcp run .\my_weather_mcp_server.py:mcp --transport streamable-http --host 127.0.0.1 --port 8001
